@@ -1,4 +1,7 @@
-from .Love_Calc import Love_Calc
+from redbot.core import commands
+from .love_calc import LoveCalc
+
 
 def setup(bot):
-    bot.add_cog(Love_Calc())
+	cog = LoveCalc(bot)
+	bot.add_cog(cog)
