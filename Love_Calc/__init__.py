@@ -1,5 +1,5 @@
 from redbot.core import commands
-from .love_calc import LoveCalc
+import LoveCalc
 
 
 def setup(bot):
