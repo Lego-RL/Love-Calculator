@@ -21,8 +21,3 @@ class Love_Calc(commands.Cog):
 	    	await ctx.send(f'{name1} and {name2} are {100 + percentage}% compatible.')
 	    else:
 	    	await ctx.send(f'{name1} and {name2} are {percentage}% compatible.')
-	
-
-
-def setup(bot):
-	bot.add_cog(Love_Calc(bot))
